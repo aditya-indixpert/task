@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 struct Student {
-    int id;
+    int  id;
     char name[50];
     int age;
     char contact[15];
@@ -44,7 +44,7 @@ int main() {
         printf("Class: %s\n", s.class_name);
     } else if(choice == 2) {
         printf("student records.\n");
-         printf("\n--- Student Registered Successfully ---\n");
+         printf("\n  Registered Successfully\n");
         printf("ID: %d\n", s.id);
         printf("Name: %s\n", s.name);
         printf("Age: %d\n", s.age);
